@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section{
+  width: 100%;
+  height: 100%;
+  
+}
+.navlinks{
+  width: 100%;
+  height: 12vh;
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  position:fixed;
+}
+.logo{
+  margin: auto;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+.navlinks ul {
+  display: flex;
+  gap: 20px;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  padding-right: 40px;
+ 
+  
+}
+ul li a{
+  text-decoration: none;
+  color: white;
+  letter-spacing: 2px;
+  
+  
+}
+.btn{
+ margin: auto;
+ display: flex;
+ }
+ .btn input{
+  padding: 7px 10px;
+  margin-right: 10px;
+  border: 0;
+  outline: 0;
+  text-align: center;
+  border-radius: 10px;
+ }
+ .book-now{
+  background-color: rgb(188, 136, 14);
+  color: white;
+  padding: 7px 10px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+ }
+ .hamburger{
+cursor: pointer;
+padding: 20px;
+display: none;
+  
+ }
+ .bar{
+  display: block;
+  width: 25px;
+  height: 4px;
+  background-color: black;
+  margin: 4px;
+ }
+header ul{
+  width: 80%;
+  height: auto;  
+  margin: auto;
+  padding-top:70px;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  transition: ease-in-out 1.8s;
+  transform:matrix3d(120deg);
+  
+  
+  
+}
+
+  
+
+header .card{
+ 
+  background-color: rgb(98, 100, 96);
+  width: 100%;
+  height:auto;
+  padding: 0px 5px;
+  text-align: center;  
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0);
+  margin:10px;
+  
+  
+  
+}
+.card img{
+  width: 100%;
+  height: 200px;
+  object-fit:cover;
+  border-radius: 10px 10px 0 0;
+  padding: 10px 5px;
+  
+  
+
+}
+
+@media(max-width:768px) {
+  .navlinks ul{
+    display: none;
+  }
+  .btn input{
+    display: none;
+  }
+  .book-now{
+    display: none;
+  }
+  .hamburger{
+    display: block;
+    cursor: pointer;
+  }
+  header ul{
+    display: grid;
+    grid-template-columns: minmax(150px,1fr);
+    padding-top:100px;
+  }
+  .navlinks .logo{
+    font-size:20px;
+  }
+}

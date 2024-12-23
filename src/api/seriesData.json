@@ -1,0 +1,56 @@
+[
+    {
+        "name":"Biryani",
+        "id":1,
+        "Price": "25 $",
+        "Rating": 8.2,
+        "Description": "biryani is famous receipy of India ,it is non-vegeterian",
+        "image_url":"http://localhost:5173/public/biryani.jpg"
+
+        },  
+        {
+            "name":"Cake",
+            "id":2,
+            "Price": "30 $",
+            "Rating": 8,
+            "Description": "cake is famous receipy of India ,it is vegeterian",
+            "image_url":"http://localhost:5173/public/cake.jpg"
+    
+            },
+            {
+                "name":"Samosa",
+                "id":3,
+                "Price": "40 $",
+                "Rating": 5,
+                "Description": "cake is famous receipy of India ,it is vegeterian",
+                "image_url":"http://localhost:5173/public/samosa.jpg"
+        
+                },
+                {
+                    "name":"Panir",
+                    "id":4,
+                    "Price": "40 $",
+                    "Rating": 5,
+                    "Description": "panir is famous receipy of India ,it is vegeterian",
+                    "image_url":"http://localhost:5173/public/panir.jpg"
+            
+                    },
+                    {
+                        "name":"Burger",
+                        "id":5,
+                        "Price": "50 $",
+                        "Rating": 5,
+                        "Description": "burger is famous receipy of India ,it is vegeterian",
+                        "image_url":"http://localhost:5173/public/pexels-burger.jpg"
+                
+                        },
+                        {
+                            "name":"Rice",
+                            "id":5,
+                            "Price": "50 $",
+                            "Rating": 7,
+                            "Description": "Rice is famous receipy of India ,it is vegeterian",
+                            "image_url":"http://localhost:5173/public/rice.jpg"
+                    
+                            } 
+]
